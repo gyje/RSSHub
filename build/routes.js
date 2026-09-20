@@ -47482,7 +47482,8 @@ export default {
       "/:section?/:type?/:user?": {
         "path": "/:section?/:type?/:user?",
         "categories": [
-          "programming"
+          "programming",
+          "popular"
         ],
         "view": 0,
         "example": "/hackernews/threads/comments_list/dang",
@@ -115565,7 +115566,8 @@ export default {
       "/posts/:usertype/:id": {
         "path": "/posts/:usertype/:id",
         "categories": [
-          "social-media"
+          "social-media",
+          "popular"
         ],
         "example": "/zhihu/posts/people/frederchen",
         "parameters": {
